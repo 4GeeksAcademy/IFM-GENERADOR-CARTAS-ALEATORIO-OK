@@ -1,1 +1,94 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100vh;
+  background: url(https://images.unsplash.com/photo-1655159428752-c700435e9983?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  border: 2px solid rgb(117, 102, 13);
+  width: 350px;
+  /* max-width: 350px; */
+  height: 550px;
+  border-radius: 20px;
+  background-color: #fffbfb;
+  box-shadow: 0 8px 16px rgba(231, 131, 206, 0.5),
+    0 15px 45px rgba(231, 131, 206, 0.5);
+  margin-bottom: 30%;
+}
+
+p {
+  margin: 0;
+}
+
+.number {
+  font-size: 12em;
+}
+
+.suit-down,
+.suit-up {
+  font-size: 5em;
+}
+
+.container-center {
+  display: flex;
+  justify-content: center;
+}
+
+.container-suit-up {
+  display: flex;
+  margin-right: auto;
+  margin-left: 5%;
+}
+
+.container-suit-down {
+  display: flex;
+  margin-left: auto;
+  transform: rotate(180deg);
+  margin-right: 5%;
+  margin-top: 5%;
+}
+/* Estilo para el botón */
+.button {
+  text-align: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+#reloadButton {
+  padding: 10px 20px;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #56718d;
+  color: rgb(245, 238, 150);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 15px 45px rgba(0, 0, 0, 0.5);
+}
+
+#reloadButton:hover {
+  background-color: #232323;
+}
+
+h1 {
+  color: rgb(245, 238, 150);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 12px;
+  text-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 15px 45px rgba(0, 0, 0, 0.8);
+}
